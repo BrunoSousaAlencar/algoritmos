@@ -1,15 +1,12 @@
-algoritmo "semnome"
+algoritmo "estrutura-de-repetic?o-simples(tutorial)"
 var
-   cont, n, s : inteiro
+   C, U: inteiro
 inicio
-      cont <- 1
-      s <- 0
-      enquanto (cont <= 5) faca
-        escreva ("Digite o valor:")
-           leia(n)
-        s <- s + n
-
-      fimenquanto
-      escreval("A soma de todos os valores foi: ", s)
+C <- 0 //Esta variavel ira receber o numero 0.
+enquanto (C <= 10) faca // 10 ser? o limete das repeticoes.
+  escreval(C)// A variavel pegou 0 de cima, que nesse caso sera 0.
+C <- C + 1 // O C que esta somando com 0, e o C que esta recebendo, agora e 1.
+fimenquanto // chegando aqui cera reiniciado, at? que chegue ao numero 10,
+//ou outro numero que voce escreva(faca o teste!;)
 
 fimalgoritmo
