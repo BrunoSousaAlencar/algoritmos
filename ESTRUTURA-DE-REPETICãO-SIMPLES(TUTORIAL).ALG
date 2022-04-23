@@ -1,6 +1,6 @@
 algoritmo "estrutura-de-repeticão-simples(tutorial)"
 var
-   C, U: inteiro
+   C: inteiro
 inicio
 C <- 0 //Esta variavel ira receber o número 0.
 enquanto (C <= 10) faca // 10 será o limete das repetições.
