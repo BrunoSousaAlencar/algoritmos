@@ -1,4 +1,6 @@
 algoritmo "comtageminteligente"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 var
       i, f, c: inteiro
