@@ -13,10 +13,10 @@ inicio
        m <- (n1 + n2) / 2
        escreval("  Nota do aluno:",m)
        se (m >= 7) entao
-           escrevaL("  Aluna APROVADO")
+           escrevaL("  Aluna: APROVADO")
        escreval("--------------------")
        senao
-           escreva("  Aluna REPROVADO")
+           escreval("  Aluna: REPROVADO")
        escreval("--------------------")
        fimse
 
