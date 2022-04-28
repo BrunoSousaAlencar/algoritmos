@@ -1,4 +1,4 @@
-algoritmo "detectordeparametros"
+algoritmo "detectordepesado"
 var
     i: inteiro
     n, pesado: caractere
@@ -13,7 +13,7 @@ inicio
 fimProcedimento
 inicio
       topo()
-      para i <- 1 ate 5 faca
+      para i <- 1 ate 2 faca
          escreva("Digite o nome: ")
             leia(n)
          escreva("Digite o peso de ",n,": ")
