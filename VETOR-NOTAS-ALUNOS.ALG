@@ -32,13 +32,3 @@ inicio
       fimpara
       escreval("Temos ",tot," alunos acima da media, que e: ",mt:4:1)
 fimalgoritmo
-
-
-
-
-
-
-
-
-
-
