@@ -29,8 +29,6 @@ inicio
        cadeiras(a, b)
        cadeiras2(a, b)
 
-
-
       t <- "S"
       enquanto t = "S" faca
      
@@ -42,10 +40,7 @@ inicio
            escreva("Quer reservas outro? [S/N] ")
               leia(t)
            cadeiras2(a, b)
-               senao
-                  se ca[1] = "---" entao
-                     escreval("Lugar Ocupado")
-               fimse
+
          fimse
          
          
