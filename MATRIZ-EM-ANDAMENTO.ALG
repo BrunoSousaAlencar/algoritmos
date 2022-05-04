@@ -30,6 +30,7 @@ inicio
       
       limpatela
          menu(a,b)
+enquanto r <= 5 faca
       escolha r
              caso 1
                   para c <- 1 ate 4 faca
@@ -40,22 +41,26 @@ inicio
                   fimpara
                   menu(a,b)
 
-               
              caso 2
+                  t <- 0
                   para c <- 1  ate 4 faca
-                    para l <- 1 ate 4 faca
-                        se c = l entao
-                          escreval(m[c,l]:t)
-                        fimse
-                        t <- t + 1
-                    fimpara
-
+                       para l <- 1 ate 4 faca
+                           se c = l entao
+                             escreval(m[c,l]:t)
+                           fimse
+                            t <- t + 1
+                       fimpara
                   fimpara
                   menu(a,b)
+             caso 3
+                 para c <- 1 ate 3 faca
+                     para l <- 1 ate 3  faca
+                         escreva(m[c,l])
+                     fimpara
+                 fimpara
+                 menu(a, b)
 
       fimescolha
-      se r < 5 entao
-         menu(a,b)
-      fimse
+fimenquanto
 
 fimalgoritmo
